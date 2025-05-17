@@ -6,7 +6,7 @@ A Python-based **side-scrolling obstacle game** where the player controls a zepp
 
 ## 🎮 Features
 
-- 🌪️ **Side-scrolling gameplay**: Navigate a zeppelin using `space` key to fly through an endless course filled with dynamic obstacles.
+- 🌪️ **Side-scrolling gameplay**: Navigate a zeppelin by click `mouse` or using `touchpad` to fly through an endless course filled with dynamic obstacles.
 - 🐝 **Multiple Hazards**: Avoid bees, caves, and trees that appear as you move forward.
 - 🧠 **Score System**: Earn points for every cave or tree successfully passed.
 - ❌ **Instant Game Over**: Colliding with the ground, sky, or any obstacle (bees, caves, or trees) ends the game.
@@ -28,6 +28,11 @@ A Python-based **side-scrolling obstacle game** where the player controls a zepp
      - Touches the **ground** or the **sky/ceiling**.
      - Collides with any **bee**, **cave**, or **tree**.
 
+<div align="center">
+  <img src="https://i.postimg.cc/zBVL3qwr/2025-05-17-31.png" alt="Demo Image" style="width: 300px; height: auto;" />
+  <img src="https://i.postimg.cc/9MZDyJk8/2025-05-17-29.png" alt="Demo Image" style="width: 300px; height: auto;" />
+</div>
+
 ---
 
 ## 🔧 Requirements
@@ -43,6 +48,10 @@ pip install pygame
 ---
 
 ## 🔑 Controls
-- Use the keyboard to control the zeppelin's vertical movement.
-- Typically, you press spacebar or up arrow to make the zeppelin rise, and release to let it fall.
+- Use a `mouse` or `touchpad` to control the zeppelin's vertical movement.
 - The control scheme may vary depending on your implementation.
+
+---
+
+## Notes
+This is a basic python game-development project. You can explore and modify it yourself to make it better!
